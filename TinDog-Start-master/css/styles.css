@@ -1,0 +1,139 @@
+#title {
+    background-color: #ff4c68 ;
+
+}
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-family: "Franklin Gothic Medium";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #fff;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+.navbar {
+    padding:0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Franklin Gothic Medium";
+}
+.download-button{
+margin: 5% 3% 5% 0;
+}
+.title-image{
+   width: 280px;
+   height: 500px;
+   transform: rotate(25deg);
+   margin-left: 50px;
+   position: absolute;
+    
+}
+.features{
+    
+}
+h3{
+    font-family: "Franklin Gothic Medium";
+}
+p{
+    color: #8f8f8f;
+}
+#features{
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.featured-box{
+    text-align: center;
+}
+.icon{
+    color: #ef8172 ;
+    margin-bottom: 1rem;
+    
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family:"Franklin Gothic Medium"; 
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+.testimonial-image{
+    width: 10%;
+     border-radius:100% ;
+     margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    text-align: center;
+    
+}
+.text-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 2% 3%;
+    text-align: center;
+}
+@media (max-width:1028px){
+.title-image{
+    position: relative;
+    transform: rotate(0deg);
+    margin-left: 30px;
+    
+}
+#title{
+    text-align: center;
+}
+}
+
+.footer-button1{
+    padding: 1% 2%;
+    margin-left: 35%;
+}
+.footer-button{
+    padding: 1% 2%;
+}
+.footer-row{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10% 1%;
+    color: #fff;
+}
+#footer{
+    margin-top: 3rem;
+    text-align: center;
+}
+.bad{
+    margin: 1rem;
+}
